@@ -1,94 +1,130 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicio - Mi Sitio Web de Finanzas</title>
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Mi Sitio Web de Finanzas (2da entrega)</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- In <head> after the Bootstrap CSS. -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+
+
+    <link rel="stylesheet" href="css/estilos.css">
 
 
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">Mi Sitio Web de Finanzas</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="content/cotizaciones.html">Cotizaciones</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="content/contacto.html">Contacto</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="content/galeria.html">Galería</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="content/videos.html">Videos</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark flex-row flex-md-column">
+            <a class="navbar-brand" href="index.html">Mi Sitio Web de Finanzas</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="content/cotizaciones.html">Cotizaciones</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-  <div class="container portada">
-    <h1 class="text-white">Bienvenido a Mi Sitio Web de Finanzas</h1>
-    <p class="text-white">¡Aquí encontrarás información financiera relevante y actualizada!</p>
-    <button class="btn">
-      <a href="#cotizaciones">Ver mas</a>
-    </button>
-  </div>
+    <main>
+        <section>
+            <div class="container-fluid portada p-5">
+                <div class="col-md-12 col-7">
+                    <h1 class="text-white">Bienvenido a Mi Sitio Web de Finanzas</h1>
+                    <p class="text-white">¡Aquí encontrarás información financiera relevante y actualizada!</p>
+                    <button class="btn">
+                        <a href="#cotizaciones">Ver mas</a>
+                    </button>
+                </div>
+            </div>
+        </section>
 
-  <div class="container mt-5">
-    
-    <div id="cotizaciones" class="row">
-      <div class="col-md-6">
-        <h3>Cotizaciones Destacadas</h3>
-        <ul>
-          <li>Bitcoin: $50,000</li>
-          <li>Ethereum: $2,500</li>
-          <li>Litecoin: $150</li>
-        </ul>
-      </div>
-      <div class="col-md-6 noticias">
-        <div>
-          <h3>Noticias Financieras</h3>
-          <p>¡Las últimas noticias sobre el mercado financiero!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida finibus risus, at cursus turpis congue eu. Aliquam erat volutpat. Phasellus pulvinar lacus eu est dapibus, et vestibulum lorem lobortis. Donec laoreet fermentum lacinia. In pretium justo sit amet placerat consequat. Nulla facilisi. Proin viverra urna nec urna auctor, at accumsan tortor dapibus. Curabitur sagittis mauris eget eleifend facilisis.</p>
-          <button class="btn">
-            <a href="#">Leer mas</a>
-          </button>
-        </div>
-        <div>
-          <h3>Noticias Financieras 2</h3>
-          <p>¡Las últimas noticias sobre el mercado financiero!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida finibus risus, at cursus turpis congue eu. Aliquam erat volutpat. Phasellus pulvinar lacus eu est dapibus, et vestibulum lorem lobortis. Donec laoreet fermentum lacinia. In pretium justo sit amet placerat consequat. Nulla facilisi. Proin viverra urna nec urna auctor, at accumsan tortor dapibus. Curabitur sagittis mauris eget eleifend facilisis.</p>
-          <button class="btn">
-            <a href="#">Leer mas</a>
-          </button>
-        </div>
-        <div>
-          <h3>Noticias Financieras 3</h3>
-          <p>¡Las últimas noticias sobre el mercado financiero!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida finibus risus, at cursus turpis congue eu. Aliquam erat volutpat. Phasellus pulvinar lacus eu est dapibus, et vestibulum lorem lobortis. Donec laoreet fermentum lacinia. In pretium justo sit amet placerat consequat. Nulla facilisi. Proin viverra urna nec urna auctor, at accumsan tortor dapibus. Curabitur sagittis mauris eget eleifend facilisis.</p>
-          <button class="btn">
-            <a href="#">Leer mas</a>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
+        <section>
+            <div class="container mt-5">
+            
+                <div class="row text-center">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <h3 class="font-weight-bold">Cotizaciones Destacadas</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Bitcoin: $50,000</li>
+                            <li class="list-group-item">Ethereum: $2,500</li>
+                            <li class="list-group-item">Litecoin: $150</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 "></div>
+                </div>
+            
+                <div id="cotizaciones" class="row">
+            
+                    <div class="col-md-12 noticias">
+                        <div>
+                            <h3>Noticias Financieras</h3>
+                            <p>¡Las últimas noticias sobre el mercado financiero!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida finibus risus, at
+                                cursus turpis congue eu. Aliquam erat volutpat. Phasellus pulvinar lacus eu est dapibus, et
+                                vestibulum lorem lobortis. Donec laoreet fermentum lacinia. In pretium justo sit amet
+                                placerat consequat. Nulla facilisi. Proin viverra urna nec urna auctor, at accumsan tortor
+                                dapibus. Curabitur sagittis mauris eget eleifend facilisis.</p>
+                            <button class="btn">
+                                <a href="#">Leer mas</a>
+                            </button>
+                        </div>
+                        <div>
+                            <h3>Noticias Financieras 2</h3>
+                            <p>¡Las últimas noticias sobre el mercado financiero!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida finibus risus, at
+                                cursus turpis congue eu. Aliquam erat volutpat. Phasellus pulvinar lacus eu est dapibus, et
+                                vestibulum lorem lobortis. Donec laoreet fermentum lacinia. In pretium justo sit amet
+                                placerat consequat. Nulla facilisi. Proin viverra urna nec urna auctor, at accumsan tortor
+                                dapibus. Curabitur sagittis mauris eget eleifend facilisis.</p>
+                            <button class="btn">
+                                <a href="#">Leer mas</a>
+                            </button>
+                        </div>
+                        <div>
+                            <h3>Noticias Financieras 3</h3>
+                            <p>¡Las últimas noticias sobre el mercado financiero!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida finibus risus, at
+                                cursus turpis congue eu. Aliquam erat volutpat. Phasellus pulvinar lacus eu est dapibus, et
+                                vestibulum lorem lobortis. Donec laoreet fermentum lacinia. In pretium justo sit amet
+                                placerat consequat. Nulla facilisi. Proin viverra urna nec urna auctor, at accumsan tortor
+                                dapibus. Curabitur sagittis mauris eget eleifend facilisis.</p>
+                            <button class="btn">
+                                <a href="#">Leer mas</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-  <footer class="container-fluid bg-dark text-white textcenter py-3">
-    <p class="text-center">Derechos de autor &copy; 2023 Mi Sitio Web de Finanzas. Todos los derechos reservados.</p>
-  </footer>
+    <footer class="container-fluid bg-dark text-white textcenter py-3">
+        <p class="text-center">Derechos de autor &copy; 2023 Mi Sitio Web de Finanzas. Todos los derechos reservados.
+        </p>
+    </footer>
 
-  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <!-- At the end of <body>, after jQuery and the Bootstrap js (Better nav bootstrap)-->
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
 </body>
+
 </html>

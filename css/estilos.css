@@ -130,6 +130,10 @@ a.navbar-brand {
 .noticias div {
   padding: 30px;
 }
+.slides{
+  width: auto;
+  height: 400px;
+}
 
 @media (max-width: 768px) {
   .noticias {
